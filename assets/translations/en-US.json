@@ -1,0 +1,203 @@
+{
+  "common": {
+    "search": "Search"
+  },
+  "dashboard": {
+    "hello": "Hello",
+    "pending": "Pending",
+    "surveys": "Surveys",
+    "tobe": "To be synced",
+    "forms": "Forms",
+    "synced": "Synced",
+    "org": "National Dengue Control Unit",
+    "address": "Public Health Complex, 555/5, Elvitigala Mawatha, Narahenpita, Colombo 5",
+    "tel": "Telephone",
+    "fax": "Fax",
+    "email": "Email"
+  },
+  "header": {
+    "back": "Back",
+    "save": "Save",
+    "add": "Add",
+    "update": "Update"
+  },
+  "survey": {
+    "title": "Survey",
+    "type": "Survey type"
+  },
+  "locality": {
+    "title": "Locality"
+  },
+  "forms": {
+    "surveilance": {
+      "title": "Surveillance field report",
+
+      "sub_survey": "SURVEY DETAILS",
+      "survey_id": "Survey ID",
+      "survey_name": "Survey Name",
+      "gn_division": "GN Division",
+      "locality": "Locality",
+
+      "sub_house": "HOUSEHOLD DETAILS",
+      "home_no": "Home No.",
+      "name": "Name",
+      "address": "Address",
+      "premise_type": "Type of the premise",
+
+      "sub_section": "SECTION DETAILS",
+      "breeding": "Type of breeding place",
+      "inspected": "Inspected containers",
+      "wet": "Wet  containers",
+      "dry": "Dry containers",
+      "indoor": "Indoor containers (I)",
+      "outdoor": "Outdoor containers (O)",
+      "type_a": "Identified (A)",
+      "type_b": "Identified (B)",
+      "type_c": "Identified (C)",
+      "type_other": "Identified (Other)",
+      "larval": "Larval Range",
+      "pupal": "Pupal Range",
+      "samples": "Sample IDs",
+
+      "sub_sections": "SECTIONS",
+
+      "create": "Create"
+    },
+    "company": {
+      "title": "Institutions/Construction",
+
+      "sub_survey": "SURVEY DETAILS",
+      "survey_id": "Survey ID",
+      "survey_name": "Survey Name",
+      "survey_type": "Survey Type",
+      "team_type": "Team Type",
+      "team_name": "Team Name",
+      "gn_division": "GN Division",
+      "premise_name": "Name of the premises",
+
+      "breeding": "Type of breeding place",
+
+      "sub_section": "SECTION DETAILS",
+      
+      "sub_containers": "NO OF CONTAINERS",
+      "wwi": "With water (I)",
+      "wwo": "With water (O)",
+      "wowi": "Without water (I)",
+      "wowo": "Without water (O)",
+      "moi": "Mosquitoes (I)",
+      "moo": "Mosquitoes (O)",
+
+      "sub_aedes": "PRESENCE OF AEDES SPP",
+      "noli": "No. Of Aedes larvae (I)",
+      "nolo": "No. Of Aedes larvae (O)",
+      "nopi": "No. Of Aedes pupae (I)",
+      "nopo": "No. Of Aedes pupae (O)",
+
+      "sub_mosquito": "PRESENCE OF OTHER MOSQUITO SP",
+      "mi": "Indoor",
+      "mo": "Outdoor",
+
+      "sub_identified": "TYPE OF IDENTIFIED AEDES SP.",
+      "ia": "A",
+      "ib": "B",
+      "iab": "AB",
+
+      "remarks": "Remarks",
+      "actions": "Actions",
+
+      "sub_sections": "SECTIONS",
+
+      "create": "Create"
+    },
+    "adult": {
+      "title": "Adult Survey",
+
+      "sub_survey": "SURVEY DETAILS",
+      "survey_id": "Survey ID",
+      "survey_name": "Survey Name",
+      "survey_type": "Survey Type",
+      "gn_division": "GN Division",
+      "locality": "Locality",
+      "weather": "Weather",
+      "started": "Started at",
+      "finished": "Finished at",
+
+      "sub_collection": "COLLECTION INFORMATION",
+      "addr": "Address",
+      "st": "Start time",
+      "et": "End time",
+      "roof": "Type of the roof",
+      "wall": "Type of the wall",
+      "in": "Indoor",
+      "ou": "Outdoor",
+
+      "sub_resting": "RESTING",
+      "rarea": "Resting area",
+      "rplace": "Resting place",
+      "rheight": "Resting height (cm)",
+
+      "sub_collected": "NO. OF MOSQUITOES COLLECTED",
+      "amale": "Ae.aegypti male",
+      "afemale": "Ae.aegypti female",
+      "almale": "Ae.albopictus male",
+      "alfemale": "Ae.albopictus female",
+
+      "abdomen": "Abdomen condition",
+      "resting": "Resting height (m)",
+
+      "sub_sections": "SECTIONS",
+
+      "create": "Create"
+    },
+    "ovitrap": {
+      "title": "Ovitrap Surveillance",
+
+      "sub_survey": "SURVEY DETAILS",
+      "survey_id": "Survey ID",
+      "survey_name": "Survey Name",
+      "survey_type": "Survey Type",
+      "locality": "Locality",
+      "climate": "Climatic conditions",
+      "gn_division": "GN Division",
+      "nature": "Nature of locality",
+
+      "section": "SECTION DETAILS",
+      "name": "Name & Address",
+      "premise": "Type of premises",
+
+      "placement": "OVITRAP PLACEMENT",
+      "placeIarea": "Indoor area (I)",
+      "placeOarea": "Outdoor area (O)",
+      "placeIplace": "Indoor place (I)",
+      "placeOplace": "Outdoor place (O)",
+
+      "collection": "POSITIVE/NEGATIVE ON COLLECTION DAY",
+      "collectionIarea": "Indoor area (I)",
+      "collectionOarea": "Outdoor area (O)",
+      "collectionIplace":"Indoor place (I)",
+      "collectionOplace": "Outdoor place (O)",
+
+      "sub_sections": "SECTIONS"
+  },
+  "pupal": {
+    "title": "Pupal Survey",
+
+    "sub_survey": "SURVEY DETAILS",
+    "survey_id": "Survey ID",
+    "survey_name": "Survey Name",
+    "survey_type": "Survey Type",
+    "locality": "Locality",
+    "gn_division": "GN Division",
+
+    "inputs": "SURVEY INPUTS",
+    "breeding": "Breeding place",
+    "wet": "No. of wet containers",
+    "positive": "Positive for Pupa",
+    "aegypti": "No. of Ae. aegypti",
+    "albopictus": "No. of Ae.albopictus",
+
+    "create": "Create",
+    "update": "Update"
+}
+  }
+}
